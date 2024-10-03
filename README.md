@@ -6,22 +6,22 @@ Baixar o áudio de qualquer vídeo do YouTube.
 Extrair um trecho específico do áudio com base no tempo de início e fim (em minutos e segundos).
 Salvar o trecho de áudio extraído em formato MP3.
 
-###Pré-requisitos
+### Pré-requisitos
 Antes de executar o script, você precisará instalar as seguintes dependências:
 Python 3.10 ou superior
 yt-dlp (para baixar o áudio do YouTube)
 moviepy (para manipulação de áudio e vídeo)
 
-###Instalação das dependências:
+### Instalação das dependências:
   pip install yt-dlp moviepy
 
-###Como usar
+### Como usar
 Clone o repositório ou baixe o código.
 Defina a URL do vídeo do YouTube no script Python.
 Especifique os tempos de início e fim do trecho de áudio que deseja extrair.
 Execute o script e o áudio será baixado e o trecho desejado será salvo como audio_trecho.mp3.
 
-###Exemplo de uso:
+### Exemplo de uso:
 No script Python, você pode ajustar a URL do vídeo e o intervalo de tempo (em segundos):
 
   url = 'https://www.youtube.com/watch?v=EXEMPLO_DE_URL'
