@@ -2,7 +2,7 @@ import yt_dlp
 from moviepy.editor import AudioFileClip
 
 # URL do vídeo do YouTube
-url = 'https://www.youtube.com/watch?v=TvQxO4DBu0g'
+url = 'https://www.youtube.com/watch?v=yU_JgeAIRko&list=PLjwm_8O3suyOwElnplQ3quKEHsOuHyP9R'
 
 # Baixar o áudio do vídeo do YouTube usando yt-dlp
 ydl_opts = {
